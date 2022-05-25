@@ -13,6 +13,8 @@
 		20268964283DF75800F73DF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20268962283DF75800F73DF0 /* Main.storyboard */; };
 		20268966283DF75A00F73DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20268965283DF75A00F73DF0 /* Assets.xcassets */; };
 		20268969283DF75A00F73DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20268967283DF75A00F73DF0 /* LaunchScreen.storyboard */; };
+		20268973283DF7AA00F73DF0 /* jankenpon2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 20268971283DF7AA00F73DF0 /* jankenpon2.mp3 */; };
+		20268974283DF7AA00F73DF0 /* jankenpon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 20268972283DF7AA00F73DF0 /* jankenpon.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		20268965283DF75A00F73DF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20268968283DF75A00F73DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2026896A283DF75A00F73DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20268971283DF7AA00F73DF0 /* jankenpon2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jankenpon2.mp3; sourceTree = "<group>"; };
+		20268972283DF7AA00F73DF0 /* jankenpon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jankenpon.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		2026895B283DF75800F73DF0 /* W03021 */ = {
 			isa = PBXGroup;
 			children = (
+				20268970283DF78A00F73DF0 /* MySound */,
 				2026895C283DF75800F73DF0 /* AppDelegate.swift */,
 				2026895E283DF75800F73DF0 /* SceneDelegate.swift */,
 				20268960283DF75800F73DF0 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				2026896A283DF75A00F73DF0 /* Info.plist */,
 			);
 			path = W03021;
+			sourceTree = "<group>";
+		};
+		20268970283DF78A00F73DF0 /* MySound */ = {
+			isa = PBXGroup;
+			children = (
+				20268972283DF7AA00F73DF0 /* jankenpon.mp3 */,
+				20268971283DF7AA00F73DF0 /* jankenpon2.mp3 */,
+			);
+			path = MySound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +141,8 @@
 			files = (
 				20268969283DF75A00F73DF0 /* LaunchScreen.storyboard in Resources */,
 				20268966283DF75A00F73DF0 /* Assets.xcassets in Resources */,
+				20268973283DF7AA00F73DF0 /* jankenpon2.mp3 in Resources */,
+				20268974283DF7AA00F73DF0 /* jankenpon.mp3 in Resources */,
 				20268964283DF75800F73DF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
